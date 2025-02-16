@@ -1,0 +1,21 @@
+# Ignore build folders
+bin/
+obj/
+
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore package dependencies
+packages/
+node_modules/
+
+# Ignore compiled files
+*.dll
+*.exe
+*.pdb

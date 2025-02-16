@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Hospital.1xtf777ugm.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1xtf777ugm"},{"Name":"integrity","Value":"sha256-NRgm/AAsMmUnzSJ5m7e2AJ\u002B/z4YIpAkvNMhdLdEh2sM="},{"Name":"label","Value":"_content/Hospital/Hospital.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1126"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NRgm/AAsMmUnzSJ5m7e2AJ\u002B/z4YIpAkvNMhdLdEh2sM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 15:02:56 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1126"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NRgm/AAsMmUnzSJ5m7e2AJ\u002B/z4YIpAkvNMhdLdEh2sM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Feb 2025 23:05:51 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Hospital/Hospital.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Hospital.1xtf777ugm.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NRgm/AAsMmUnzSJ5m7e2AJ\u002B/z4YIpAkvNMhdLdEh2sM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1126"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NRgm/AAsMmUnzSJ5m7e2AJ\u002B/z4YIpAkvNMhdLdEh2sM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Feb 2025 15:02:56 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1126"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022NRgm/AAsMmUnzSJ5m7e2AJ\u002B/z4YIpAkvNMhdLdEh2sM=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Feb 2025 23:05:51 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Hospital/images/doctor1.ds0m2bcrgx.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\doctor1.jpg'))</AssetFile>
