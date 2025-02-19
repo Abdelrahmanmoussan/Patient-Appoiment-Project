@@ -32,7 +32,7 @@
                     <td>@patient.AppointmentDate.ToShortDateString()</td>
                     <td>@patient.AppointmentTime</td>
                     <td>
-                        <a asp-action="EditPatient" asp-route-id="@patient.Id" class="btn btn-warning btn-sm">Edit</a>
+                        <a asp-action="Edit" asp-route-id="@patient.Id" class="btn btn-warning btn-sm">Edit</a>
                         @* <a asp-action="DeletePatient" asp-route-id="@patient.Id" class="btn btn-danger btn-sm">Delete</a> *@
                     </td>
                 </tr>

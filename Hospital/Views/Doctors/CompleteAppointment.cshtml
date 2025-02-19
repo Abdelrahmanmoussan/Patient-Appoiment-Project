@@ -41,15 +41,42 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         var appointmentForm = document.getElementById('appointmentForm');
+
         appointmentForm.addEventListener('submit', function (e) {
-            // Show the success modal after form submission
-            var myModal = new bootstrap.Modal(document.getElementById('successModal'), {
-                backdrop: 'static',
-                keyboard: false
+            e.preventDefault(); // Prevent default form submission
+
+            var formData = new FormData(appointmentForm);
+
+            fetch(appointmentForm.action, {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (response.ok) {
+                    return response.text(); // Handle response if needed
+                }
+                throw new Error('Failed to submit form');
+            })
+            .then(data => {
+                // Show success modal AFTER successful form submission
+                var myModal = new bootstrap.Modal(document.getElementById('successModal'), {
+                    backdrop: 'static',
+                    keyboard: false
+                });
+                myModal.show();
+
+                // Reset the form
+                appointmentForm.reset();
+
+                // Redirect to the Index page when modal is closed
+                document.getElementById('successModal').addEventListener('hidden.bs.modal', function () {
+                    window.location.href = "/Doctors/Index"; // Change the URL to your correct Index page
+                });
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error submitting the form. Please try again.');
             });
-            myModal.show();
-            // Prevent the default form submission
-            // e.preventDefault();
         });
     });
 </script>
